@@ -15,7 +15,7 @@ test_config = read(os.path.join(os.path.dirname(__file__), "bot_config.yaml"))
 _log = logging.get_logger()
 
 # 创建ZhipuAI客户端实例
-client = ZhipuAI(api_key="")  # 请替换为您的API密钥
+client = ZhipuAI(api_key="2b5a8c3fd438df8af00a006b8a20ba7f.ALfTiirSr4GG8fT2")  # 请替换为您的API密钥
 
 # 创建一个名为 'completions' 的属性，指向 ZhipuAI 模块中的聊天功能
 client.completions = client.chat.completions
